@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+
+button{
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    color: white;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner-header{
+    font-weight: 700;
+    font-size: 80px;
+    font-weight: bold;
+    color: #363958;
+}
+
+p{
+    font-family: Roboto;
+}
+
+span{
+    color: #fabe4c;
+}
+
+.card-style{
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
