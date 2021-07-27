@@ -38,28 +38,25 @@ span{
 }
 
 .card-style{
-    background-color: #060707;
+    box-sizing: border-box;
+    background-color: #2bd6d6;
     border-radius: 20px;
-    /* transition: transform 0.5s ease-in-out; */
+    transition: transform 0.5s ease-in-out; 
     padding: 2%;
     margin: 5px;
     color: white;
     box-shadow: 20px 20px 40px palegreen;
 }
 
-/* .card-style:hover{
-    background-color: #09090a;
-    padding: 2%;
+.card-style:hover{
     box-sizing: border-box;
+    background-color: #09090a;
     border-radius: 10px;
-    width: 100%;
     overflow: hidden;
-    margin: 5px;
     transform: scale(1.1); 
-    color: white; 
-}  */
+}  
 
-.card-img{
+/* .card-img{
     border-radius: 10px;
     transition: transform 0.5s ease-in-out;
 }
@@ -67,8 +64,19 @@ span{
 .card-img:hover{
     transform: scale(1.04);
     background-color: black;
-}
+} */
 
 .contact-seller{
     box-shadow: 5px 5px 20px palegreen;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* For Mobile */
+
+@media only screen and (max-width:768px) {
+    
 }
