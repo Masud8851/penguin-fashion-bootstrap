@@ -1,3 +1,5 @@
+/* Global */
+
 *{
     margin: 0%;
     padding: 0%;
@@ -11,6 +13,13 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
     color: #363958;
 }
+p{
+    font-family: Roboto;
+}
+
+span{
+    color: #fabe4c;
+}
 
 button{
     background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
@@ -21,12 +30,15 @@ button{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* Buttons */
 button:focus {
     outline: none;
     color: #fff;
     background: firebrick;
-  }
+}
 
+/* Banner */
 .banner-header{
     font-weight: 700;
     font-size: 80px;
@@ -34,14 +46,8 @@ button:focus {
     color: #363958;
 }
 
-p{
-    font-family: Roboto;
-}
 
-span{
-    color: #fabe4c;
-}
-
+/* Card */
 .card-style{
     box-sizing: border-box;
     background-color: #2bd6d6;
@@ -71,6 +77,7 @@ span{
     background-color: black;
 } */
 
+/* Contact Section */
 .contact-seller{
     box-shadow: 5px 5px 20px palegreen;
     padding: 0 20px;
