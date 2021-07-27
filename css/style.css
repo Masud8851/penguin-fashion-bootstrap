@@ -21,6 +21,11 @@ button{
     padding-left: 15px;
     padding-right: 15px;
 }
+button:focus {
+    outline: none;
+    color: #fff;
+    background: firebrick;
+  }
 
 .banner-header{
     font-weight: 700;
@@ -76,7 +81,3 @@ span{
 }
 
 /* For Mobile */
-
-@media only screen and (max-width:768px) {
-    
-}
